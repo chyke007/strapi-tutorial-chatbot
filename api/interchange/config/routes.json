@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/interchanges",
+      "handler": "interchange.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/interchanges/count",
+      "handler": "interchange.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/interchanges/:id",
+      "handler": "interchange.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/interchanges",
+      "handler": "interchange.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/interchanges/:id",
+      "handler": "interchange.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/interchanges/:id",
+      "handler": "interchange.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
